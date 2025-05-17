@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diyafa Events | Designing events that speak your story</title>
+    <link rel="icon" type="image/png" href="/WhatsApp_Image_2025-05-16_at_22.43.51-removebg-preview.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #000000;
+            --secondary: #efc79b;
+            --light: #18134d;
+            --text-light: #ffffff;
+            --hover-bg: #efc79b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--text-light);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 40px;
+        }
+
+        .logo img {
+            max-width: 100%;
+            height: auto;
+            max-height: 350px;
+            object-fit: contain;
+        }
+
+        .logo-main {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--text-light);
+            text-transform: lowercase;
+            margin-bottom: 5px;
+        }
+
+        .logo-sub {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--secondary);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .logo-address {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            letter-spacing: 1px;
+            margin-top: 10px;
+        }
+
+        .contact-links {
+            display: grid;
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            background: transparent;
+            color: var(--text-light);
+            border: 2px solid var(--secondary);
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .contact-link:hover {
+            background: var(--secondary);
+            color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(239, 199, 155, 0.3);
+        }
+
+        .contact-link i {
+            margin-right: 12px;
+            font-size: 1.2rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background: var(--secondary);
+            color: var(--primary);
+            border-radius: 50%;
+            font-size: 1.3rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--text-light);
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.8rem;
+            color: var(--secondary);
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 15px;
+            }
+            .logo img {
+                max-height: 280px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-main {
+                font-size: 2.8rem;
+            }
+
+            .logo-sub {
+                font-size: 1.7rem;
+                margin-bottom: 15px;
+            }
+
+            .logo-address {
+                font-size: 1rem;
+            }
+
+            .contact-link {
+                padding: 14px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .logo img {
+                max-height: 180px;
+            }
+
+            .contact-link {
+                flex-direction: column;
+                gap: 5px;
+                padding: 12px;
+            }
+
+            .contact-link i {
+                margin-right: 0;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <!-- Use either logo image or text title -->
+            <!-- <img src="/WhatsApp Image 2025-05-16 at 22.43.51.jpeg" alt="Liyafa Events Logo"> -->
+             <img src="/event-logo.jpeg.jpeg" alt="">
+           
+            <div class="logo-address">Designing events that speak your story</div>
+        </div>
+
+        <div class="contact-links">
+            <a href="tel:+917034222313" class="contact-link">
+                <i class="fas fa-phone-alt"></i> +91 7034222313
+            </a>
+            <a href="mailto:diyafaevents313@gmail.com" class="contact-link">
+                <i class="fas fa-envelope"></i> diyafaevents313@gmail.com
+            </a>
+            <a href="https://maps.google.com" class="contact-link">
+                <i class="fas fa-map-marker-alt"></i> Kacheripadi, Vengara
+            </a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/diyafa_events/" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/18yCRMsuPj/" class="social-link" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/7034222313" class="social-link" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <footer>
+            © 2025 Diyafa Events. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
